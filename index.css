@@ -67,6 +67,10 @@ html {
     z-index: 99;
 }
 
+.movielist li span img {
+    height: 300px;
+}
+
 .movielist li:hover span {
     display: block;
 } 
