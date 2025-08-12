@@ -8,13 +8,6 @@ html {
                 color 1s ease-in-out;
 }
 
-#mepic {
-    border-radius: 25%;
-    display: block;
-    margin: auto;
-    border: 2px solid;
-    width: 95%;
-}
 
 .navbar {
     display: flex;
@@ -46,6 +39,20 @@ html {
     border-color: black;
     border: 2px solid;
     padding: 10px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 12px;
+}
+
+figure img {
+    border-radius: 25%;
+    display: block;
+    margin: 10px;
+    width: 95%;
+    border: 2px solid;
+    border-radius: 10px;
 }
 
 /* .movie {
